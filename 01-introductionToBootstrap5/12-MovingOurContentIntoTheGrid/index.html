@@ -13,46 +13,58 @@
   </head>
 
   <body>
-    <div class="container">
-      <!-- Callout -->
-      <header id="callout" class="text-center">
-        <h1>The finest whiskeys delivered to your doorstep.</h1>
-        <p class="lead">
-          Sign up today to start receiving the world's best whiskeys every
-          month.
-          <s>€19.99</s>
-          <strong><mark>First one is free!</mark></strong>
-        </p>
-        <p class="text-muted">
-          <small
-            >You must be over 18 to sign up to our service. Please drink
-            responsibly.</small>
-        </p>
-      </header>
+    <div class="container-fluid">
+      <header id="callout" class="text-center row">
+        <div class="col-12">
+          <h1>The finest whiskeys delivered to your doorstep.</h1>
+          <p class="lead">
+            Sign up today to start receiving the world's best whiskeys every
+            month.
+            <s>€19.99</s>
+            <strong><mark>First one is free!</mark></strong>
+          </p>
 
-      <!-- Quotes -->
-      <section id="quotes">
-        <header>
+          <button class="btn btn-success btn-lg">Sign Up!</button>
+
+          <p class="text-muted">
+            <small
+              >You must be over 18 to sign up to our service. Please drink
+              responsibly.</small
+            >
+          </p>
+        </div>
+      </header>
+    </div>
+
+    <div class="container">
+      <section id="quotes" class="row">
+        <header class="col-12">
           <h2 class="text-uppercase text-center">Quotes</h2>
         </header>
-
-        <p>Legendary service! I haven't been sober for months!</p>
-        <p>John Smith</p>
-
-        <p>
-          I've been introduced to so many international whiskeys I never knew
-          about.
-        </p>
-        <p>Sally Jones</p>
+        <figure class="col-12 col-md-6">
+          <blockquote class="blockquote">
+            <p>Legendary service! I haven't been sober for months!</p>
+          </blockquote>
+          <figcaption class="blockquote-footer">John Smith</figcaption>
+        </figure>
+        <figure class="col-12 col-md-6">
+          <blockquote class="blockquote">
+            <p>
+              I've been introduced to so many international whiskeys I never
+              knew about.
+            </p>
+          </blockquote>
+          <figcaption class="blockquote-footer">Sally Jones</figcaption>
+        </figure>
       </section>
+    </div>
 
-      <!-- Features -->
-      <section id="features" class="text-center">
-        <header>
+    <div class="container">
+      <section id="features" class="text-center row">
+        <header class="col-12">
           <h2 class="text-uppercase">Features</h2>
         </header>
-
-        <div class="feature">
+        <div class="col-12 col-md-6 col-lg-4 feature">
           <h3>Feature 1</h3>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod,
@@ -60,10 +72,9 @@
             consectetur obcaecati voluptate autem, ea quod voluptates accusamus?
             Esse porro vel explicabo dicta culpa!
           </p>
-          <a href="#">Read More</a>
+          <a href="#" class="btn btn-primary btn-sm">Read More</a>
         </div>
-
-        <div class="feature">
+        <div class="col-12 col-md-6 col-lg-4 feature">
           <h3>Feature 2</h3>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod,
@@ -71,10 +82,9 @@
             consectetur obcaecati voluptate autem, ea quod voluptates accusamus?
             Esse porro vel explicabo dicta culpa!
           </p>
-          <a href="#">Read More</a>
+          <a href="#" class="btn btn-primary btn-sm">Read More</a>
         </div>
-
-        <div class="feature">
+        <div class="col-12 d-md-none d-lg-block col-lg-4 feature">
           <h3>Feature 3</h3>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod,
@@ -82,7 +92,7 @@
             consectetur obcaecati voluptate autem, ea quod voluptates accusamus?
             Esse porro vel explicabo dicta culpa!
           </p>
-          <a href="#">Read More</a>
+          <a href="#" class="btn btn-primary btn-sm">Read More</a>
         </div>
       </section>
     </div>
